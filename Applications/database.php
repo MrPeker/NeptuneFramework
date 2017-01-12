@@ -5,7 +5,7 @@ class Database {
             'host'      => 'localhost',
             'username'  => 'root',
             'password'  => '',
-            'database'  => 'neptuneframework',
+            'database'  => 'test',
             'character' => 'utf8'
         ];
     }
