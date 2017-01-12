@@ -1,6 +1,14 @@
 <?php
 class Model
 {
+    //----------------------------------------------------------------------------------------------------
+    // NEPTUNE PHP FRAMEWORK
+    //----------------------------------------------------------------------------------------------------
+    //
+    // Author     : Emirhan ENGIN <whitekod.com2001@gmail.com>
+    // Copyright  : Copyright (c) 2016-2017, NEPTUNE FRAMEWORK
+    //
+    //----------------------------------------------------------------------------------------------------
     private $database;
     public function __construct(){
         $this->database = (new Database())->settings();
